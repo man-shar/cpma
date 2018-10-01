@@ -1,5 +1,5 @@
 <template>
-<div id="navbar">
+<div id="navbar" class="source-sans">
   <div class="list-centered">
     <ul class="navbar-list">
       <li v-for="item in navItems" :key="item.text">
@@ -53,8 +53,6 @@ export default {
 
 <style scoped>
 #navbar {
-  font-family: 'Source Sans Pro', sans-serif;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
